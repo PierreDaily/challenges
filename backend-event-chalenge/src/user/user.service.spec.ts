@@ -13,6 +13,7 @@ const saveMock = jest.fn(async () => {
     }),
   );
 });
+
 describe('UserService', () => {
   let service: UserService;
   let userRepository: Repository<User>;
